@@ -16,6 +16,13 @@ st.markdown("""
 ---
 """)
 
+# 图片展示（插入在 wishes 之后、结尾签名前）
+st.image(
+    "https://raw.githubusercontent.com/Simon252525/test/main/jiawei.JPG",
+    caption="💖 她就是☀️🐝。",
+    use_column_width=True
+)
+
 # ENTP 检测模块
 with st.spinner('👾 SYSTEM CHECK: Scanning personality profile...'):
     time.sleep(1)
