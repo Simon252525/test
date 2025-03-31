@@ -67,4 +67,8 @@ st.markdown("""
 ### 🧠 你生命中唯一的贱宝 ENTP ❤️  
 """)
 
-st.code("\ud83c\udff1 return 'Happy Birthday, Zhang Jiawei 🎂💫✨'", language="python")
+st.markdown("""
+<div style='text-align: center; font-size: 24px;'>
+🎁 <code>return "Happy Birthday, Zhang Jiawei 🎂💫✨"</code>
+</div>
+""", unsafe_allow_html=True)
